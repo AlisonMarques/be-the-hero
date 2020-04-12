@@ -80,3 +80,22 @@ form textarea {
 .back-link:hover {
     opacity: 0.8;
 }
+
+.front-link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.front-link svg {
+    margin-right: 8px;
+}
+
+.front-link:hover {
+    opacity: 0.8;
+}

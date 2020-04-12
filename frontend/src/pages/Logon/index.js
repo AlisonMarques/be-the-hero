@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiLogIn} from 'react-icons/fi';
+import { IoIosArrowRoundForward } from 'react-icons/io'
 
 import api from '../../services/api';
 
@@ -46,6 +47,11 @@ export default function Logon() {
                  <Link className="back-link" to="/register">
                      <FiLogIn size={16} color="#E02041"/>
                      Não tenho cadastro
+                 </Link>
+
+                 <Link className="front-link" to="/incidents/user">
+                     <IoIosArrowRoundForward size={16} color="#E02041"/>
+                     Ver os casos das ONG
                  </Link>
                 </form>
             </section>
