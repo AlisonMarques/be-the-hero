@@ -51,7 +51,7 @@ export default function Logon() {
 
                  <Link className="front-link" to="/incidents/user">
                      <IoIosArrowRoundForward size={16} color="#E02041"/>
-                     Ver os casos das ONG
+                     VER CASOS
                  </Link>
                 </form>
             </section>
